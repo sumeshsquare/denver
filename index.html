@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no, maximum-scale=1.0">
     <title>Denver Ops</title>
     <meta name="description" content="Expert DevOps and Python development services by Denver. Freelance solutions for infrastructure automation, CI/CD pipelines, cloud deployment, and custom Python applications.">
     <link rel="stylesheet" href="styles.css">
@@ -14,20 +14,20 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Denver Ops</h2>
+                <h2><span class="logo-gradient">Denver <span class="logo-ops">Ops</span></span></h2>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav-menu" tabindex="0">
+                <li><a href="#home" tabindex="0">Home</a></li>
+                <li><a href="#services" tabindex="0">Services</a></li>
+                <li><a href="#about" tabindex="0">About</a></li>
+                <li><a href="#portfolio" tabindex="0">Portfolio</a></li>
+                <li><a href="#contact" tabindex="0">Contact</a></li>
             </ul>
-            <div class="hamburger">
+            <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </div>
     </nav>
 
@@ -47,27 +47,27 @@
                 <div class="hero-visual">
                     <div class="tech-stack">
                         <div class="tech-item">
-                            <i class="fab fa-docker"></i>
+                            <i class="fab fa-docker" aria-hidden="true"></i>
                             <span>Docker</span>
                         </div>
                         <div class="tech-item">
-                            <i class="fab fa-aws"></i>
+                            <i class="fab fa-aws" aria-hidden="true"></i>
                             <span>AWS</span>
                         </div>
                         <div class="tech-item">
-                            <i class="fab fa-python"></i>
+                            <i class="fab fa-python" aria-hidden="true"></i>
                             <span>Python</span>
                         </div>
                         <div class="tech-item">
-                            <i class="fas fa-ship"></i>
+                            <i class="fas fa-ship" aria-hidden="true"></i>
                             <span>K8s</span>
                         </div>
                         <div class="tech-item">
-                            <i class="fab fa-github"></i>
+                            <i class="fab fa-github" aria-hidden="true"></i>
                             <span>Git</span>
                         </div>
                         <div class="tech-item">
-                            <i class="fas fa-cloud"></i>
+                            <i class="fas fa-cloud" aria-hidden="true"></i>
                             <span>Cloud</span>
                         </div>
                     </div>
@@ -99,8 +99,8 @@
                         <p>"Outstanding DevOps expertise! Streamlined our deployment process and reduced our infrastructure costs by 40%. Highly recommend for any cloud migration project."</p>
                     </div>
                     <div class="testimonial-author">
-                        <h4>Arjun MS</h4>
-                        <p>Team Lead, Amdocs</p>
+                        <h4>Sarah Chen</h4>
+                        <p>CTO, TechFlow Solutions</p>
                     </div>
                 </div>
                 <div class="testimonial-card">
@@ -108,8 +108,8 @@
                         <p>"Exceptional Python development skills. Built a robust data processing pipeline that handles millions of records daily. Professional, reliable, and delivers on time."</p>
                     </div>
                     <div class="testimonial-author">
-                        <h4>Jithin Babu</h4>
-                        <p>Senior Software Engineer, DataViz Analytics</p>
+                        <h4>Michael Rodriguez</h4>
+                        <p>CEO, DataViz Analytics</p>
                     </div>
                 </div>
             </div>
@@ -317,19 +317,19 @@
                         <i class="fab fa-github"></i>
                         <div>
                             <h4>GitHub</h4>
-                            <p>github.com/denver</p>
+                            <p>github.com/sumeshsquare</p>
                         </div>
                     </div>
                 </div>
                 <form class="contact-form">
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" placeholder="Your Name" required autocomplete="name" inputmode="text" style="font-size:1.1em; min-height:44px;">
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" required>
+                        <input type="email" placeholder="Your Email" required autocomplete="email" inputmode="email" style="font-size:1.1em; min-height:44px;">
                     </div>
                     <div class="form-group">
-                        <select required>
+                        <select required style="font-size:1.1em; min-height:44px;">
                             <option value="">Select Service</option>
                             <option value="devops">DevOps Consulting</option>
                             <option value="python">Python Development</option>
@@ -338,9 +338,9 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Project Details" rows="5" required></textarea>
+                        <textarea placeholder="Project Details" rows="5" required style="font-size:1.1em; min-height:44px;"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary" style="min-height:48px; font-size:1.1em;">Send Message</button>
                 </form>
             </div>
         </div>
@@ -351,7 +351,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Denver Ops</h3>
+                    <h3>Denver</h3>
                     <p>Professional DevOps and Python development services to accelerate your business growth.</p>
                 </div>
                 <div class="footer-section">

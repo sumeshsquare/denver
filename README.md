@@ -246,6 +246,3 @@ This template is free to use for personal and commercial projects. Attribution i
 ---
 
 **Built with ❤️ for DevOps professionals**
-# denver
-# denver
-# denver
